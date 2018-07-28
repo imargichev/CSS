@@ -1,32 +1,54 @@
-*{
+* {
     box-sizing: border-box;
 }
 
-body{
-    font-family: 'DejaVu Sans', Arial, Helvetica, sans-serif;
+body {
+    font-family: 'Montserrat', sans-serif;
     margin: 0;
 }
 
-#product-overview{
+#product-overview {
     background: #ff1b68;
     width: 100%;
     height: 528px;
-    padding: 10px;
-/*    border: 5px solid black;*/
+    padding: 10px;   
 }
 
-.setion-title{
+.section-title {
     color: #2ddf5c;
 }
 
-#product-overview h1{
+#product-overview h1 {
     color: white;
-    font-family: Inconsolata ;
+    font-family: 'Anton', sans-serif;
 }
 
-.mail-header{
-    background:green;
-    padding: 6px 16px;
+/* h1 {
+    font-family: sans-serif;
+} */
+
+.main-header {
     width: 100%;
+    background: #2ddf5c;
+    padding: 8px 16px;
 }
 
+.main-header > div {
+    display: inline-block;
+}
+
+.main-nav {
+    display: inline-block;
+    text-align: right;
+    width: calc(100% - 54px);
+}
+
+.main-nav__items {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.main-nav__item {
+    display: inline-block;
+}
