@@ -12,7 +12,7 @@ for (var i = 0; i < selectPlanButtons.length; i++) {
   selectPlanButtons[i].addEventListener("click", function() {
     // modal.style.display = "block";
     // backdrop.style.display = "block";
-    // modal.className = 'open'; // This will actually overwrite the complete class list
+    // modal.className = 'open';
     modal.classList.add("open");
     backdrop.classList.add("open");
   });
